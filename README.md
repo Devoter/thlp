@@ -1,5 +1,7 @@
 # thlp
 
+[![Build Status](https://travis-ci.com/Devoter/thlp.svg?branch=master)](https://travis-ci.com/Devoter/thlp)
+
 thlp is a lightweight test helper. It has no dependencies and easy interface.
 
 The package provides the following functions: `Equal`, `DeepEqual`, `Bytes`, `Ok`, `Cmp` and `Err`.
