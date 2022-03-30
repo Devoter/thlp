@@ -16,6 +16,8 @@ func (am *assertMock) Fatalf(format string, arguments ...interface{}) {
 	am.result = fmt.Sprintf(format, arguments...)
 }
 
+func (am *assertMock) Helper() {}
+
 func TestEqual(t *testing.T) {
 	t.Run("Equal", func(t *testing.T) {
 		t.Parallel()
